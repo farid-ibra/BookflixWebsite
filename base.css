@@ -1,0 +1,122 @@
+table, th, td {
+    border: 2px solid black;
+	margin-bottom: 100px;
+	border-collapse: collapse;
+}
+
+
+
+.center  {text-align: center;}
+
+div.fb {
+    
+    
+	position: absolute;
+    top: 8px;
+    right: 100px;
+    
+}
+
+div.insta {
+    position: absolute;
+    top: 16px;
+    right: 44px;
+	
+    
+}
+
+article#firstbook{
+	
+/*padding-top:40px;
+	float: left;
+margin-right:600px;
+margin-left:70px;
+padding-bottom:150px;
+position:relative;*/
+overflow:hidden;
+
+	}
+
+	
+article#secondbook{
+/*padding-top:40px;
+	float: left;
+margin-right:600px;
+margin-left:70px;
+padding-bottom:150px;*/
+overflow:hidden;
+
+	
+}
+
+div.first_1, div.first_2, div.first_3, div.first_download {
+	float:right;
+	clear:right;
+	margin-left:10px;
+	
+}
+
+
+
+div.second_1, div.second_2, div.second_3, div.second_download{
+	float:right;
+	clear:right;
+	margin-left:10px;
+	
+}
+
+
+
+header, main {width:70%; margin:0 auto;}
+header{font-family: 'Righteous', cursive;}
+
+
+body#form{
+	
+padding-left: 100px;
+padding-right:100px;
+
+	
+}
+
+article{font-family: 'Gaegu', cursive;}
+
+a:visited { 
+    color: #6F256F;
+}
+img{ margin-bottom:10px;}
+body#form{
+	background: url(1.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	}
+	
+div#kim{font-family: 'Gaegu', cursive;}
+div#nedir{ width:70%; margin:0 auto; font-family: 'Righteous', cursive;}
+.backpic{
+background: url(1.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+video{margin: 0 auto;
+	border: 10px outset #ddd;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+	
+h1 {color:DodgerBlue;}
+
+footer{color:white;}
+
+div#foot{color:white;}

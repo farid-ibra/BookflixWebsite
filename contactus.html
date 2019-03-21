@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Contact us</title>
+		<link rel="stylesheet" href="base.css" type="text/css" title="normal"/>
+		<link rel="alternate stylesheet" type="text/css" href="large.css" title="large"/>
+	     <script type="text/javascript" src="scripts/styleswitcher.js"></script>
+
+
+	</head>
+	
+	<body id="form" >
+	<div id="forvisualimpairmen"><a id="largetext" href="#" onclick="setActiveStyleSheet('large'); return false;"><span class="icon"></span>Large text</a>
+	<a id="normaltext" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="icon"></span>Normal text</a>
+	</div>
+	<div class="center" id="nedir">
+	<h1>  Contact us  </h1>
+	<div>
+	 <a href="index.html">Main page</a> | <a href="firstbook.html">  First book  </a> | <a href="secondbook.html">  Second book</a> | <a href="contactus.html" >Contact us</a>  
+	</div>
+	</div>
+	
+
+
+	
+	<div id="kim">
+	<h2>
+	If you want to subscribe to new posts or you have any book suggestions you can share your contact with us:
+	</h2>
+	</div>
+	
+	
+	
+<div id="main">
+
+
+<form action="mailto:ovchular@bk.ru" method="post" enctype="text/plain">
+<fieldset>
+	<legend>Information about book</legend>
+	<label for="title"><strong>Title:</strong></label><br/>
+	<input type="text" name="title" id="title" size="60"/><br/>
+	
+	<label for="imdb">Author:</label><br/>
+	<input type="text" name="imdbwebaddress" id="imdb" size="60"/> <br/>
+<label for="st">Plot shortly:</label><br/>
+<textarea cols="60" rows="10" name="story" id="st" ></textarea>
+</fieldset>
+<fieldset>
+<legend>Rating</legend>
+<p>How much you like this book in a 1 to 5 scale</p>
+  <input type="radio" name="rating" id="r1" value="1"/>
+  <label for="r1">1</label>
+  <input type="radio" name="rating" id="r2" value="2"/>
+  <label for="r2">2</label>
+  <input type="radio" name="rating" id="r3" value="3"/>
+  <label for="r3">3</label>
+  <input type="radio" name="rating" id="r4" value="4"/>
+  <label for="r4">4</label>
+  <input type="radio" name="rating" id="r5" value="5"/>
+  <label for="r5">5</label>
+</fieldset>
+<fieldset>
+<legend>Personal info</legend>
+<label for="visitorname">Name</label><br/>
+<input type="text" name="visitorname" id="visitorname" size="60"/><br/>
+<label for="email">E-mail address</label><br/>
+<input type="text" name="email" id="email" size="60"/><br/>
+
+
+<input type="checkbox" name="newsletter" id="news" value="yes"/><br/>
+<label for="news">I'd like to subscribe to a newsletter</label><br/>
+</fieldset>
+<fieldset>
+<legend>Send</legend>
+	<input type="submit" value="Submit"/>
+	<input type="reset" value="Reset"/>
+</fieldset>
+</form>
+
+		
+</div>
+	
+	
+	<div id="foot" class="center"> ©2018 Bookflix | All rights reserved </div>
+	</body>
+
+</html>
+
